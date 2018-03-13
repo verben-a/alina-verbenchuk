@@ -9,9 +9,9 @@ import { MentoringComponent } from './mentoring.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: 'intro', pathMatch: 'full' },
-	{ path 'intro', component: IntroComponent },
-	{ path 'about', component: AboutComponent },
-	{ path 'mentoring', component: MentoringComponent}
+	{ path: 'intro', component: IntroComponent },
+	{ path: 'about', component: AboutComponent },
+	{ path: 'mentoring', component: MentoringComponent}
 ];
 
 
