@@ -1,0 +1,43 @@
+.top-nav-collapse {
+    background-color: #78909c !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    } 
+}
+h1 {
+    letter-spacing: 8px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+}
+
+.info {
+	top: 20%;
+}
+
+/* Mobile defaults */
+.col-6 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  /* 6 columns */
+  .col-6 {
+    width: 50%;
+
+  }
+}
